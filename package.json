@@ -1,0 +1,21 @@
+{
+  "name": "reason_monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world && fpack",
+    "clean": "bsb -clean-world",
+    "watch": "watchexec -w packages -w src -i lib -e re,rei yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "bs-webapi": "^0.19.1",
+    "fastpack": "^0.9.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

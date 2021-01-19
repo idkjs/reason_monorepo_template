@@ -1,0 +1,32 @@
+{
+  "name": "reason_monorepo",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "pinned-dependencies": [
+    "a",
+    "b",
+    "c"
+  ],
+  "bs-dependencies": [
+    "b",
+    "c",
+    "reason-react",
+    "bs-webapi"
+  ],
+  "warnings": {
+    "number": "A+101",
+    "error": true
+  }
+}

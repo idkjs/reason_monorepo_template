@@ -1,0 +1,7 @@
+{
+  "development": true,
+  "entryPoints": [
+    "src/Index.bs.js"
+  ],
+  "outputDir": "lib/bundle"
+}
