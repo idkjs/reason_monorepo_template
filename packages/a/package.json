@@ -11,6 +11,6 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "reason-react": ">=0.7.1"
+    "reason-react": ">=0.9.1"
   }
 }
